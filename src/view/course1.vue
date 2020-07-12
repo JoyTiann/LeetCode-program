@@ -55,6 +55,7 @@ export default {
             let fileReader = new FileReader()
             fileReader.onload = function () {
                 console.log(fileReader.result)
+                
             }
             fileReader.readAsText(file)
         }
