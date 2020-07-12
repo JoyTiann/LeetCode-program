@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "view-design": "^4.3.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -32,7 +33,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "comma-spacing": 0
+    }
   },
   "browserslist": [
     "> 1%",
