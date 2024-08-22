@@ -7,6 +7,7 @@
     </div>
 </template>
 <script>
+import maxProfit from '../leetcode/1';
 export default {
     name: 'course1',
     data(){
@@ -59,6 +60,11 @@ export default {
             }
             fileReader.readAsText(file)
         }
+    },
+    created(){
+        const res = maxProfit([3,10,1,2,7,4])
+        console.log(res);
+        
     }
 }
 </script>
