@@ -7,7 +7,7 @@
     </div>
 </template>
 <script>
-import isPalindrome from '../leetcode/2'
+import isPalindrome from '../leetcode/2.js'
 export default {
     name: 'course1',
     data(){
@@ -62,7 +62,7 @@ export default {
         }
     },
     created(){
-        const res = isPalindrome('A man, a plan, a canal: Panama')
+        const res = isPalindrome('2    1')
         console.log(res);
     }
 }
