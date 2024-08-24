@@ -14,7 +14,7 @@ var isPalindrome = function(s) {
     return sGood === res
 };
 
-// 双指针
+// 双指针解法
 export var isPalindrome2 = function(s) {
     // 去除数字、字母
     let sGood = s.replace(/[^a-zA-Z0-9]/g,'')
