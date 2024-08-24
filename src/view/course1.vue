@@ -7,7 +7,7 @@
     </div>
 </template>
 <script>
-import maxProfit from '../leetcode/1';
+import isPalindrome from '../leetcode/2'
 export default {
     name: 'course1',
     data(){
@@ -62,9 +62,8 @@ export default {
         }
     },
     created(){
-        const res = maxProfit([3,10,1,2,7,4])
+        const res = isPalindrome('A man, a plan, a canal: Panama')
         console.log(res);
-        
     }
 }
 </script>
